@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heropedia</title>
+
+    <!-- link-style -->
+    <link rel="stylesheet" href="concept/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+
+    <div class="main-wrappper">
+        <div class="app">
+            <!-- ----app header ---- -->
+            <div class="app-header">
+                <h2 class="app-header-title">Hero<span>Pedia.</span></h2>
+                <form class="app-header-search">
+                    <input type="text" class="form-control"
+                    placeholder="Search your superhero here...."
+                    name="search">
+                    <button type="submit" class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <div class="search-list" id="search-list">
+                        <!-- <div class="search-list-item">
+                            <img src="concept/img/yor_forger_by_ellireii_df4rw3s-pre.jpg" alt="">
+                            <p>Forger</p>
+                        </div> -->
+                    </div>
+                </form>
+            </div>
+             <!-- ----end header ---- -->
+
+             <div class="app-body">
+                <div class="app-body-content">
+                    <!-- app body thumbnail -->
+                    <div class="app-body-content-thumbnail">
+                        <img src="concept/img/yor_forger_by_ellireii_df4rw3s-pre.jpg" alt="">
+                    </div>
+                    <!-- end of app body thumbnail -->
+
+                    <div class="app-body-content-list">
+                        <div class="name">Forger</div>
+
+                        <!-- tabs head -->
+                        <div class="app-body-tabs-head">
+                            <button type="button" class="tab-head-single " data-id ="1">
+                                <span>powerstats</span>
+                            </button>
+                            <button type="button" class="tab-head-single" data-id ="2">
+                                <span>biography</span>
+                            </button>
+                            <button type="button" class="tab-head-single" data-id ="3">
+                                <span>appearance</span>
+                            </button>
+                            <button type="button" class="tab-head-single" data-id ="4">
+                                <span>connection</span>
+                            </button> 
+                        </div>
+                        <!-- end of tabs head -->
+
+                        <!-- tab body -->
+                        <div class="app-body-tabs-body">
+                            <!-- powerstats tab -->
+                            <ul class="tab-body-single powerstats ">
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>Intelligence</span>
+                                    </div>
+                                    <span>100</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>strength</span> 
+                                    </div>
+                                    <span>26</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>speed</span>
+                                    </div>
+                                    <span>27</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>durability</span>
+                                    </div>
+                                    <span>50</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>power</span>
+                                    </div>
+                                    <span>47</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>combat</span>
+                                    </div>
+                                    <span>100</span>
+                                </li>
+                            </ul>
+                            <!-- end of powerstats tab -->
+
+                            <!-- biography tab -->
+                            <ul class="tab-body-single biography">
+                                <!-- <li>
+                                    <span>Full Name</span>
+                                    <span>Terry Mcginnis</span>
+                                </li>
+                                <li>
+                                    <span>Alter-egos</span>
+                                    <span>no alter egos found</span>
+                                </li>
+                                <li>
+                                    <span>Aliases</span>
+                                    <span> Batman II, The Tomorrow Knight, Batman Beyond</span>
+                                </li>
+                                <li>
+                                    <span>place-of-birth</span>
+                                    <span>Gotham City, 25th Century</span>
+                                </li>
+                                <li>
+                                    <span>first-appearance</span>
+                                    <span>Batman Beyond #1</span>
+                                </li>
+                                <li>
+                                    <span>publisher</span>
+                                    <span>DC Comics</span>
+                                </li> -->
+                            </ul>
+                            <!-- end of biography tab -->
+
+                            <ul class="tab-body-single appearance">
+                                <!-- <li>
+                                    <span>
+                                        <i class="fas fa-star"></i>gender
+                                    </span>
+                                    <span>Male</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i>race
+                                    </span>
+                                    <span>Human</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i>height
+                                    </span>
+                                    <span>5' 10''</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i>weight
+                                    </span>
+                                    <span>170 lb'</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i>eye-color
+                                    </span>
+                                    <span>blue</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i>hair color
+                                    </span>
+                                    <span>black</span>
+                                </li> -->
+                            </ul>
+                            <!-- end of appearance -->
+
+
+                            <!-- connections -->
+                            <ul class="tab-body-single connections">
+                                <!-- <li>
+                                    <span>group--affiliation</span>
+                                    <span> Batman Family, Justice League Unlimited</span>
+                                </li>
+                                <li>
+                                    <span>relatives</span>
+                                    <span>
+                                        Bruce Wayne (biological father),
+                                        Warren McGinnis (father, deceased),
+                                        Mary McGinnis (mother),
+                                        Matt McGinnis(brother)
+                                    </span>
+                                </li> -->
+                            </ul>
+                            <!-- end of connections -->
+                        </div>
+                        <!-- end of tab body -->
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+    
+<script src="concept/app.js"></script>
+
+</body>
+</html>
