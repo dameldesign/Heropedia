@@ -188,7 +188,7 @@ const showSuperheroDetails = (data) => {
             </li>
             <li>
             <span>
-                <i class="fas fa-star"></i>race
+                <i class="fas fa-star"></i>height
             </span>
             <span>${data[0].appearance['height'][0]}</span>
             </li>
